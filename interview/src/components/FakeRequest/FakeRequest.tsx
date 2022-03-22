@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import {fetchFakeData} from './FakeRequest.api'
 
-interface Component1Props {
+interface FakeRequestProps {
   isVisible: boolean;
 }
 
-export const FakeRequest = (props: Component1Props) => {
+export const FakeRequest = (props: FakeRequestProps) => {
   const { isVisible = false } = props;
   const [data, setData] = useState<string | null>(null);
   
