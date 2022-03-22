@@ -8,8 +8,8 @@ export const App = () => {
   return (
     <>
       {/*<OrderTaskContainer />*/}
-      <PositionTask />
-      {/*<FakeRequest isVisible={true} />*/}
+      {/*<PositionTask />*/}
+      <FakeRequest isVisible={true} />
       {/*<DataManipulationContainer />*/}
       {/*<TimerButtonContainer />*/}
     </>
