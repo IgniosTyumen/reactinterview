@@ -1,6 +1,6 @@
 import React from "react";
-import { DataManipulationBad } from "./DataManipulation.bad";
 import {generateHugeArray} from "components/DataManipulation/DataManipulation.utils";
+import {DataManipulation} from "components/DataManipulation/DataManipulation";
 
 export interface HugeDataArrayItem {
   id: number;
@@ -12,5 +12,5 @@ export const DataManipulationContainer = () => {
   
   const hugeDataArray: HugeDataArrayItem[] = generateHugeArray(20, 100)
   
-  return <DataManipulationBad hugeArray={hugeDataArray} />;
+  return <DataManipulation hugeArray={hugeDataArray} />;
 };
