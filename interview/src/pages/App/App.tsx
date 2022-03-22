@@ -10,8 +10,11 @@ export const App = () => {
       {/*<OrderTaskContainer />*/}
       {/*<PositionTask />*/}
       {/*<FakeRequest isVisible={true} />*/}
-      <DataManipulationContainer />
-      {/*<TimerButtonContainer />*/}
+      {/*<DataManipulationContainer />*/}
+      <TimerButtonContainer />
+      <TimerButtonContainer />
+      <TimerButtonContainer />
+      <TimerButtonContainer />
     </>
   );
 }
