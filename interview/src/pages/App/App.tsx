@@ -7,8 +7,8 @@ import {OrderTaskContainer, PositionTask} from "components/CssTasks";
 export const App = () => {
   return (
     <>
-      <OrderTaskContainer />
-      {/*<PositionTask />*/}
+      {/*<OrderTaskContainer />*/}
+      <PositionTask />
       {/*<FakeRequest isVisible={true} />*/}
       {/*<DataManipulationContainer />*/}
       {/*<TimerButtonContainer />*/}
